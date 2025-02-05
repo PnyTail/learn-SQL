@@ -1,3 +1,6 @@
+CREATE DATABASE quan_ly_sinh_vien
+use quan_ly_sinh_vien
+
 DROP TABLE sinh_vien
 
 CREATE TABLE sinh_vien(
