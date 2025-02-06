@@ -14,9 +14,9 @@ CREATE TABLE sinh_vien(
 
 CREATE TABLE sinh_vien(
   	ma int identity,
-	ten nvarchar(50),
-  	ngay_sinh date,
-  	gioi_tinh bit,
+	ten nvarchar(50) NOT NULL,
+  	ngay_sinh date NOT NULL,
+  	gioi_tinh bit NOT NULL,
   	so_dien_thoai char(15),
   	PRIMARY KEY(ma)
 )
